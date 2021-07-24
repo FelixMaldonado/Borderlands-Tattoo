@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+     <!-- Additional CSS must be placed after Bootstrap CSS-->
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/styles.css"/>
+    <title>Borderlands Tattoo</title>
+</head>
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container titleContainer">
+            <div class="row">
+                <div class="col">
+                    <h1 class="title">Borderlands Tattoo</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img\gasMaskPNG.PNG" height="60" width="60"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="r">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-heart" aria-hidden="true"></i> After Care</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-play" aria-hidden="true"></i> Media</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Address and Social Media</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+</body>
+</html>

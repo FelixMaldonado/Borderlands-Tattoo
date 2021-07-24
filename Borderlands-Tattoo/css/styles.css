@@ -1,0 +1,27 @@
+.title{
+    text-align: center;
+    height: 100%;
+    color: rgba(55, 99, 51, 0.904);
+    vertical-align: middle;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 84px;
+    letter-spacing: 10px;
+    text-shadow: 6px 4px black;
+}
+
+.jumbotron{
+    background-image: url("../img/hazard-stripes-wallpaper-900x652.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 175px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    color:black;
+}
+
+.navbar{
+    background-color: black;
+}
