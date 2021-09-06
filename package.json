@@ -1,0 +1,26 @@
+{
+  "name": "borderlands-tattoo",
+  "version": "1.0.0",
+  "description": "Borderlands Tattoo Shop",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "author": "Felix Maldonado",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^4.6.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "install": "^0.13.0",
+    "jquery": "^3.6.0",
+    "npm": "^7.20.0",
+    "popper.js": "^1.16.1"
+  }
+}
